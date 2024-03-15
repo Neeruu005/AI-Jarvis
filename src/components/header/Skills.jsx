@@ -23,7 +23,6 @@ const skills = [
 
     image: "/src/assets/react.png",
   },
-
   {
     id: 5,
     name: "NodeJS",
@@ -61,68 +60,53 @@ const skills = [
 
     image: "/src/assets/py.jpg",
   },
+ 
   {
     id: 11,
-    name: "Fire Base",
-
-    image: "/src/assets/firebase.png",
-  },
-  {
-    id: 12,
     name: "Tailwind CSS",
 
     image: "/src/assets/tailwind.png",
   },
   {
-    id: 13,
+    id: 12,
     name: "Redux & RTK",
 
     image: "/src/assets/redux.jpg",
   },
+ 
+  
   {
-    id: 14,
-    name: "AWS",
-
-    image: "/src/assets/aws.png",
-  },
-  {
-    id: 15,
-    name: "Linux",
-
-    image: "/src/assets/linux.jpg",
-  },
-  {
-    id: 16,
+    id: 13,
     name: "Rest API",
 
     image: "/src/assets/rest.jpg",
   },
   {
-    id: 17,
+    id: 14,
     name: "Open Ai",
 
     image: "/src/assets/openai.jpg",
   },
   {
-    id: 18,
+    id: 15,
     name: "Durable",
 
     image: "/src/assets/durable.jpg",
   },
   {
-    id: 19,
+    id: 16,
     name: "Code Whisperer",
 
     image: "/src/assets/code.jpg",
   },
   {
-    id: 20,
+    id: 17,
     name: "Gamma",
 
     image: "/src/assets/gamma.jpg",
   },
   {
-    id: 21,
+    id: 18,
     name: "Mintlify",
 
     image: "/src/assets/mintlifly.jpg",
@@ -132,8 +116,6 @@ const skills = [
 const Skills = () => {
   return (
 
-    
-   
       <div name="skills" className="w-full h-full mt-10 mx-4 ">
         {/* Container */}
         <div className="max-w-[1000px] mx-auto flex  flex-col flex-wrap justify-center w-full h-full">
