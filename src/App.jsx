@@ -15,9 +15,13 @@ import Footer from "./components/header/Footer";
 const App = () => {
   return (
     <>
+ 
+    <Navbar></Navbar>
+    
+   
 
   
-      <Navbar></Navbar>
+     
       
 
 
