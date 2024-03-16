@@ -1,13 +1,14 @@
-import home from "/src/assets/html.png";
+import html from "/src/assets/html.png";
 
 
 
 const skills = [
+  
   {
     id: 1,
     name: "HTML",
 
-    image:{home},
+    image:html,
   },
   {
     id: 2,
