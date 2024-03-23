@@ -1,16 +1,16 @@
-// import propic from '../images/banner.png'
+import about from '/src/assets/about.jpg'
 
 
 const About = () => {
   return (
     <div className=" mt-10 lg:mx-12 mx-4 " id="about">
       <div className="flex flex-col sm:flex-row md:gap-24 gap-12 items-center justify-between">
-        <div className="sm:w-1/2"> 
-          <img src="" alt="" className="w-full sm:w-11/12" />
+        <div className="sm:w-1/2 "> 
+          <img src={about} alt="" className="w-full sm:w-11/12 rounded-[150px] cursor-pointer" />
         </div>
         <div className="sm:w-1/2">
           
-          <h2 className="md:text-5xl text-4xl text-headingcolor font-bold">My Expertise</h2>
+          <h2 className="md:text-5xl text-4xl text-heading font-bold">My Expertise</h2>
           <p className="mt-8 md:pr-8 mb-8">
           A full-stack developer portfolio is a document or webpage that showcases a developers skills and how they used them to solve problems. A full-stack developer is a professional who works on both the front-end and back-end development processes. This includes designing, developing, and maintaining platforms with databases or servers
             <br /> <br />

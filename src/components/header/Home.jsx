@@ -8,7 +8,7 @@ const Home = () => {
       <div className="md:mt-10 mt-4 h-full w-full bg-bgShade  " id="home">
         <div className="lg:px-12 px-4 flex flex-col md:flex-row-reverse items-center justify-between  gap-4">
           <div className="md:w-1/2 w-full">
-            <img src={home} className="w-full" />
+            <img src={home} className="w-full rounded-[60px]" />
           </div>
           {/* left side */}
           <div className="md:w-1/2 w-full ">

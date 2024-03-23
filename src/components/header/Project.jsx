@@ -71,7 +71,7 @@ const products = [
 
 const Project = () => {
   return (
-    <div className=" mt-20 h-full w-full ">
+    <div className="  h-full w-full ">
       <div className="mx-auto max-w-6xl px-4 py-90 sm:px-6 sm:py-2 lg:max-w-full lg:px-8">
         <div className="   mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-col-3 xl:gap-x-8">
           {products.map((product) => (
@@ -83,7 +83,7 @@ const Project = () => {
                   className=" h-full w-full  object-center lg:h-full lg:w-full  "
                 />
               </div>
-              <div className="  text-center   ">
+              <div className="  text-center md:text-[3xl]   ">
                 <h3 className="mt-3   font-semibold  tracking-10 text-gray-900 group-hover:text-gray-600">
                   <a className="md:text-3xl  ">
                     <span className="" />
