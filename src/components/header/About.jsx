@@ -14,7 +14,7 @@ const About = () => {
           <p className="mt-8 md:pr-8 mb-8">
           A full-stack developer portfolio is a document or webpage that showcases a developers skills and how they used them to solve problems. A full-stack developer is a professional who works on both the front-end and back-end development processes. This includes designing, developing, and maintaining platforms with databases or servers
             <br /> <br />
-            React.js ka upyog karke a responsive e-commerce vebasait banayi, jisme Node.js ke liye Express.js ka upyog back-end ke roop me kiya gaya. Surakshit 
+            
           </p>
           <div className="mt-10 flex items-center  gap-x-6">
                 

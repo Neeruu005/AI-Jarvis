@@ -56,21 +56,20 @@ const posts = [
 
 const Education = () => {
   return (
-    <div className=" py-8  mx-4 max-w-full ">
+    <div className=" py-8  mx-4 max-w-full  ">
       
-      <div className="mx-auto max-w-20xl px-6 lg:px-8">
-        <div className="mx-auto  border-4xl rounded grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10  sm:mt-1 sm:pt-1 lg:mx-0 lg:max-w-none ">
+      <div className="mx-auto max-w-20xl px-6 lg:px-8 ">
+        <div className="mx-auto  border-4xl grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10  sm:mt-1 sm:pt-1  lg:mx-0 lg:max-w-none ">
           {posts.map((post) => (
             <article
               key={post.id}
-              className="flex  flex-col items-start justify-between"
+              className="flex  flex-col items-start  "
             >
               <div className="flex ">
                 <h2 className="text-gray-500">{post.date} -</h2>
                 <h2 className="text-gray-500">{post.end}</h2>
               </div>
             
-
               <div className=" w-full    ">
                 <h3 className="mt-3 text-cl w-full font-semibold  tracking-10 text-gray-900 group-hover:text-gray-600">
                   <a className="md:text-3xl  ">
