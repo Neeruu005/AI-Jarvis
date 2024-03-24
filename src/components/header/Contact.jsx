@@ -1,32 +1,47 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
+import axios from "axios";
+import toast, { Toaster } from 'react-hot-toast';
+
 const Contact = () => {
-  const data = {
+
+  const [inputData, setInputData] = useState({
     name: "",
     email: "",
     message: "",
-  };
+  });
+ 
 
-  const [inputData, setInputData] = useState(data);
-  const [flag, setFlag] = useState(false);
 
-  useEffect(() => {
-    // console.log("registered");
-  }, [flag]);
 
   const handleData = (e) => {
     setInputData({ ...inputData, [e.target.name]: e.target.value });
     // console.log(inputData);
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!inputData.name || !inputData.email || !inputData.message) {
-      alert("please fill valid details!");
-    } else {
-      setFlag(true);
+  const handleClick = (e)=>{
+    e.preventDefault()
+    const {name, email, message}  = inputData
+   
+    if(name && email && message){
+ axios.post('http://localhost:8080/contact', inputData)
+ .then(res => console.log(res))
+
+ toast.success('Successfully 🤘!')
+
+ 
+   
      
     }
-  };
+    else{
+      toast.error('please fill all fields 🙏!')
+     
+    }
+   
+
+
+
+  }
+
   return (
 
 <>
@@ -37,13 +52,7 @@ const Contact = () => {
     <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 ">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm bg-green-300  rounded-2xl text-center">
-      {flag ? (
-          <h2 className=" px-3">
-            Thank You {inputData.name}, you have Submitted Successfully✌️
-          </h2>
-        ) : (
-          ""
-        )}
+      
 
       </div>
       
@@ -56,9 +65,7 @@ const Contact = () => {
       <div className="mt-6 sm:mx-auto sm:w-full sm:max-w-sm ">
         <form
           className="space-y-6"
-          action="#"
-          method="POST"
-          onSubmit={handleSubmit}
+         
         >
           <div>
             <label
@@ -133,6 +140,8 @@ const Contact = () => {
           <div>
             <button
               type="submit"
+              onClick={handleClick}
+              
               className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Submitted
@@ -141,6 +150,7 @@ const Contact = () => {
         </form>
       </div>
     </div>
+    <Toaster/>
     </>
   );
 };

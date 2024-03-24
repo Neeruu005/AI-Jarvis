@@ -27,7 +27,7 @@ const Home = () => {
               lifelong learner, constantly exploring new technologies. 🌌
             </p>
 
-            <div className="mt-20 flex  flex-wrap items-center gap-y-4 ml-1 gap-x-8">
+            <div className=" flex  flex-wrap items-center gap-y-4 ml-1 gap-x-8">
               <a
                 href=""
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5  font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600   cursor-pointer hover:translate-y-3 transition-all duration-1000  hover:text-primary"
@@ -47,8 +47,7 @@ const Home = () => {
           </div>
           {/* right side */}
         </div>
-
-        <div className="bg-bgShade flex mt-10  md:px-12 px-2">
+        <div className="bg-bgShade flex sm:mt-10  md:px-12 px-2">
           <div className="flex md:items-center justify-between gap-8 mb-20">
             <div className="flex items-center  flex-wrap gap-7 ml-5 ">
               <a href="https://twitter.com/Amit_6742">
