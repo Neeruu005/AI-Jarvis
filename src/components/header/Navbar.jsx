@@ -1,6 +1,7 @@
 import { Disclosure,} from '@headlessui/react'
 import { Bars3Icon,  XMarkIcon } from '@heroicons/react/24/outline'
 
+
 const navigation = [
   { name: 'Home', href: '/', current: false },
   { name: 'About', href: '/about', current: false },
@@ -35,11 +36,12 @@ function classNames(...classes) {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="h-8 w-20 mx-20 "
-                    src=""
-                    alt="Your Company"
-                  />
+                  <h1
+                    className="h-8 w-50 mx-20 text-3xl">
+                    
+                    
+                   
+                </h1>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

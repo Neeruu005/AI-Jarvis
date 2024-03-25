@@ -8,8 +8,8 @@ const products = [
   {
     id: 1,
     name: "Zoom video group call application using WebRTC",
-    href: "https://dull-gold-jay-slip.cyclic.app/",
-    repo: "https://dull-gold-jay-slip.cyclic.app/",
+    href: "#",
+    repo: "#",
     imageSrc: image1,
     description:
       "WebRTC, MERN stack Web Applications or  Real-Time Communication, is a technology that allows browsers to exchange media and data in real-time. It's used for voice and video chat between devices, and camera, microphone, or screen and share it with others. Connect with SocketIO and create the necessary logic  Implement WebRTC for group calls  Add WebRTC data channels for chat functionality. to deployed projects",

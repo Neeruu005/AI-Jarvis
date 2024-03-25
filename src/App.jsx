@@ -9,7 +9,6 @@ import Contact from "./components/header/Contact";
 import "./App.css";
 import Page404 from "./components/header/Page404";
 import { SpeedInsights } from '@vercel/speed-insights/react';
-
 import Footer from "./components/header/Footer";
 // import Navbar from "./components/header/Navbar2"
 
