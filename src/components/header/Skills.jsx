@@ -15,7 +15,7 @@ import pic14 from "/src/assets/openai.jpg";
 import pic15 from "/src/assets/durable.jpg";
 import pic16 from "/src/assets/code.jpg";
 import pic17 from "/src/assets/gamma.jpg";
-import pic18 from "/src/assets/mintlifly.jpg";
+
 
 const skills = [
   {
@@ -123,12 +123,7 @@ const skills = [
 
     image: pic17,
   },
-  {
-    id: 18,
-    name: "Mintlify",
-
-    image: pic18,
-  },
+  
 ];
 
 const Skills = () => {

@@ -46,19 +46,10 @@ const products = [
       "Weather apps  HTML CSS using javascript programming language real time Api  provide users with real-time weather information, forecasts, and other weather-related data. Weather apps can help users make better decisions about their day-to-day activities Temperature, humidity, pressure, and wind direction Hourly and weekly forecasts. ",
   },
 
+ 
+
   {
     id: 5,
-    name: "Rock, Paper, Scissors Game",
-    href: "https://amit6742.github.io/stonePaperScissor/",
-    repo: "https://github.com/amit6742/stonePaperScissor",
-
-    imageSrc: image5,
-    description:
-      "The familiar game of Rock, Paper, Scissors using javaScript programming language is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.",
-  },
-
-  {
-    id: 6,
     name: "TO-DO-LIST ",
     href: "https://amit6742.github.io/TodoList/",
     repo: "https://github.com/amit6742/TodoList",
