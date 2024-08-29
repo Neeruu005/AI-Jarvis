@@ -54,7 +54,7 @@ const Home = () => {
                 <i className="bx bxl-twitter text-4xl cursor-pointer hover:-translate-y-3 transition-all duration-300  hover:text-primary "></i>
               </a>
 
-              <a href="https://web.whatsapp.com/8287338299">
+              <a href="#">
                 <i
                   className="bx bxl-whatsapp  text-4xl cursor-pointer hover:-translate-y-3 transition-all duration-300  hover:text-primary"
                   id="box-social"
