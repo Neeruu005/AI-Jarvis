@@ -52,7 +52,7 @@ const Home = () => {
                 <i className="bx bxl-twitter text-4xl cursor-pointer hover:-translate-y-3 transition-all duration-300  hover:text-primary "></i>
               </a>
 
-              <a href="https://www.instagram.com/neeruu003?igsh=MWMyMHIwanNtMWUzaA==">
+              <a href="https://web.whatsapp.com/8287338299">
                 <i
                   className="bx bxl-instagram  text-4xl cursor-pointer hover:-translate-y-3 transition-all duration-300  hover:text-primary"
                   id="box-social" 
