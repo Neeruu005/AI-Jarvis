@@ -1,4 +1,4 @@
-import image1 from "/src/assets/webrtc.jpg";
+import image1 from "/src/assets/AI jarvis.png";
 import image2 from "/src/assets/e-commerce.jpg";
 import image3 from "/src/assets/expense tracker.jpg";
 import image4 from "/src/assets/weather.jpg";
@@ -7,18 +7,18 @@ import image6 from "/src/assets/todolist.jpg";
 const products = [
   {
     id: 1,
-    name: "Zoom video group call application using WebRTC",
-    href: "#",
-    repo: "#",
+    name: "Jarvis AI Assistant",
+    href: "https://legendary-sprite-e0bb0a.netlify.app/",
+    repo: "https://github.com/Neeruu005/AI-Jarvis",
     imageSrc: image1,
     description:
-      "WebRTC, MERN stack Web Applications or  Real-Time Communication, is a technology that allows browsers to exchange media and data in real-time. It's used for voice and video chat between devices, and camera, microphone, or screen and share it with others. Connect with SocketIO and create the necessary logic  Implement WebRTC for group calls  Add WebRTC data channels for chat functionality. to deployed projects",
+      "Jarvis is an AI-driven personal assistant designed to enhance productivity by efficiently managing daily tasks, retrieving information, and integrating seamlessly with various tools. Developed using HTML, CSS, and JavaScript, Jarvis features a sleek and responsive interface combined with advanced functionality. Its Natural Language Processing (NLP) capabilities allow it to understand and execute voice commands, offering an intuitive user experience. Jarvis not only keeps you organized but also adapts to your needs, ensuring continuous efficiency",
   },
   {
     id: 2,
     name: "E-Commerce shopeWide Web application",
-    href: "https://dull-gold-jay-slip.cyclic.app/",
-    repo: "https://github.com/amit6742/production-mern-ecommerce-app-2023",
+    href: "https://legendary-sprite-e0bb0a.netlify.app/",
+    repo: "https://github.com/Neeruu005/AI-Jarvis",
 
     imageSrc: image2,
     description:
@@ -80,7 +80,7 @@ const Project = () => {
                     <h2>{product.name}</h2>
                   </a>
                 </h3>
-                <p className=" text-black text-[14px] mt-4">
+                <p className=" text-black text-[14px] mt-4 text-center">
                   {product.description}
                 </p>
               </div>
